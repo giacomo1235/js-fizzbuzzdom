@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: goldenrod;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.area-numbers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 4rem;
+    height: 4rem;
+    margin: .5rem;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three {
+    background-color: red;
+}
+
+.five {
+    background-color: blue;
+}
+
+.both {
+    background-color: green;
+}
+
